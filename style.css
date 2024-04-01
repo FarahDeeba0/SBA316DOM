@@ -1,0 +1,44 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/57/8c/37/578c377f14a78fbd9bf5bf5a48230c3e.gif');
+    background-size: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #c0d3b5;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #427044;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e3d267;
+}
+
+p#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
